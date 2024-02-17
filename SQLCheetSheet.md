@@ -1,26 +1,48 @@
 # Definitions
 
 **SQL Structured Query Language:** A language for querying and manipulating data.
+
 **DDL Data Definition Language:** CREATE, ALTER, DROP, TRUNCATE etc. Create and modify structures in the database (tables, views, indexes, etc.) 
+
 **DML Data Manipulation Language:** SELECT, INSERT, UPDATE, DELETE etc. Used to store, modify, retrieve, delete and update data in database.
+
 **DCL Data Control Language:** GRANT, REVOKE etc. Rights, permissions and other controls of the database system.
+
 **Data:** The information that is stored in the database.
+
 **Database:** A collection of data.
+
 **Schema:** The structure of the database. The tables, views, indexes, etc.
+
 **Table:** A collection of data organized in rows and columns.
+
 **Row:** A single record in a table.
+
 **Column:** A single field in a table.
+
 **Primary Key:** A unique identifier for a row in a table.
+
 **Foreign Key:** A field in a table that is a primary key in another table.
+
 **View:** A virtual table that is the result of a query.
+
 **Index:** A data structure that improves the speed of data retrieval.
+
 **Query:** A request for data or information from a database table or combination of tables.
+
 **Query Language:** A language for requesting information from a database.
+
+
 **Database Client:** A program that allows you to connect to a database and run queries.
+
 **Database Server:** A program that runs on a computer and manages the database.
+
 **Database Management System:** A program that manages the database.
+
 **Database Administrator:** A person who manages the database.
+
 **Database Developer:** A person who creates and maintains the database.
+
 **Database User:** A person who uses the database.
 
 # Data Types 
@@ -142,7 +164,9 @@ The JOIN clause is used to combine rows from two or more tables, based on a rela
 
 the INNER JOIN keyword selects records that have matching values in both tables.
 
-![Inner Join](/Images/innerjoin.png "Inner Join"){height=150; style="display: block; margin: 0 auto"}
+<p align="center">
+  <img width="250" src="/Images/innerjoin.png">
+</p>
 
 ```sql
 SELECT column_name(s)
@@ -155,7 +179,9 @@ INNER JOIN tableB ON tableA.column_name = tableB.column_name;
 The LEFT JOIN clause returns all records from the left table (tableA), and the matched records from the right table (tableB).
 The result is NULL from the right side, if there is no match.
 
-![Left Join](/Images/leftjoin.png "Left Join"){height=150; style="display: block; margin: 0 auto"}
+<p align="center">
+  <img width="250" src="/Images/leftjoin.png">
+</p>
 
 ```sql
 SELECT column_name(s)
@@ -166,7 +192,9 @@ ON tableA.column_name = tableB.column_name;
 
 ---
 
-![Left Join Excluding Inner Join](/Images/leftjoin2.png "Left Join Excluding Inner Join"){height=150; style="display: block; margin: 0 auto"}
+<p align="center">
+  <img width="250" src="/Images/leftjoin2.png">
+</p>
 
 ```sql
 SELECT column_name(s)
@@ -181,7 +209,9 @@ WHERE tableB.column_name = NULL
 The RIGHT JOIN clause returns all records from the right table (tableB), and the matched records from the left table (tableA).
 The result is NULL from the left side, when there is no match.
 
-![Right Join](/Images/rightjoin.png "Right Join"){height=150; style="display: block; margin: 0 auto"}
+<p align="center">
+  <img width="250" src="/Images/rightjoin.png">
+</p>
 
 ```sql
 SELECT column_name(s)
@@ -192,7 +222,9 @@ ON tableA.column_name = tableB.column_name;
 
 ---
 
-![Right Join Excluding Inner Join](/Images/rightjoin2.png "Right Join Excluding Inner Join"){height=150; style="display: block; margin: 0 auto"}
+<p align="center">
+  <img width="250" src="/Images/rightjoin2.png">
+</p>
 
 ```sql
 SELECT column_name(s)
@@ -206,7 +238,9 @@ WHERE tableA.column_name = NULL
 
 The FULL OUTER JOIN clause returns all records when there is a match in either left (tableA) or right (tableB) table records.
 
-![Full Outer Join](/Images/fulljoin.png "Full Outer Join"){height=150; style="display: block; margin: 0 auto"}
+<p align="center">
+  <img width="250" src="/Images/fulljoin.png">
+</p>
 
 ```sql
 SELECT column_name(s)
@@ -217,7 +251,9 @@ ON tableA.column_name = tableB.column_name;
 
 ---
 
-![Full Outer Join Excluding Inner Join](/Images/fulljoin2.png "Full Outer Join Excluding Inner Join"){height=150; style="display: block; margin: 0 auto"}
+<p align="center">
+  <img width="250" src="/Images/fulljoin2.png">
+</p>
 
 ```sql
 SELECT column_name(s)
