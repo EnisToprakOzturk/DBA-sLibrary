@@ -4,29 +4,10 @@
 select * from sys.dm_os_cluster_nodes
 ~~~
 
-### Show Logins in Default DB
-
-~~~sql
-Select * from sys.server_principals;
-~~~
-
 ### Show OS and DB Version
 
 ~~~sql
 select @@version
-~~~
-
-### Show DB and Ist Owner
-
-~~~sql
-SELECT name, suser_sname(owner_sid) AS DBOwner FROM sys.databases
-~~~
-
-### Show Users
-
-~~~sql
-SELECT name, createdate, accdate
-FROM master..syslogins;
 ~~~
 
 ### Size of Database in the Specified Disk
