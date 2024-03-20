@@ -128,7 +128,7 @@ git branch <branch_name>
 
 git branch -a
 ~~~
-> -a tüm bracnhleri görmek için kullanılır
+> -a tüm branchleri görmek için kullanılır
 
 ### git merge
 
