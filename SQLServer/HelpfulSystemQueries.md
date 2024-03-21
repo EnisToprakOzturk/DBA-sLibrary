@@ -10,7 +10,13 @@ select * from sys.dm_os_cluster_nodes
 select @@version
 ~~~
 
-### Size of Database in the Specified Disk
+### Show Service and Server Name
+
+~~~sql
+select @@servicename, @@servername
+~~~
+
+### Size of Database Files
 
 ~~~sql
 SELECT DB_NAME(database_id) AS database_name, 
@@ -19,7 +25,6 @@ SELECT DB_NAME(database_id) AS database_name,
     size/128.0 AS CurrentSizeMB,
     physical_name
 FROM sys.master_files
-where physical_name like 'E%'
 order by CurrentSizeMB desc
 ~~~
 
