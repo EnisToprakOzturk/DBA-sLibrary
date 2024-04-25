@@ -2,7 +2,7 @@
 
 Open Source Version Control System
 
-## Github a Proje Yüklemek
+## Uploading Project to Github
 
 1. Create Github account
 2. Install Git
