@@ -4,43 +4,72 @@ A comprehensive repository of my personal notes, cheat sheets, and best practice
 
 ---
 
-## 📑 Table of Contents
-* [🗄️ Supported Databases](#-supported-databases)
+# Table of Contents
+* [Supported Databases](#-supported-databases)
   * [PostgreSQL](#postgresql)
   * [MongoDB](#mongodb)
   * [SQL Server](#sql-server)
   * [Oracle](#oracle)
-* [🛠️ OS Guides](#operating-system-guides)
-* [📜 Essential Cheat Sheets](#-essential-cheat-sheets)
+* [OS Guides](#operating-system-guides)
+  * [Linux](#linux)
+  * [Windows](#windows)
+* [Essential Cheat Sheets](#-essential-cheat-sheets)
 
+---
 
-## 🗄️ Supported Databases
+# Supported Databases
 
-### PostgreSQL
+## PostgreSQL
+### Query
 - [Create Database](./PostgreSQL/CreateDatabase.md)
+- [Create User](/PostgreSQL/CreateUser.md)
+- [Show Active Users](/PostgreSQL/ShowActiveUsers.md)
+- [Show Changed Configurations with Query](/PostgreSQL/ShowChangedConfsWithQuery.md)
 
+### Guide
+- [Database Cluster](/PostgreSQL/DatabaseCluster.md)
+- [psql](/PostgreSQL/psql.md)
+- [System Catalogs](/PostgreSQL/SystemCatalogs.md)
 
-### MongoDB
+## MongoDB
+### Query
 - [Create User](./MongoDB/CreateUser.md)
 
-### SQL Server
+## SQL Server
+### Query
+- [Backingup the Database](./SQLServer/BackingupDatabase.md)
+- [Helpful System Queries](/SQLServer/HelpfulSystemQueries.md)
+- [Privilige Quaries](/SQLServer/PrivilegeQueries.md)
+- [Recovery Models](/SQLServer/RecoveryModels.md)
+- [Show Backup History](/SQLServer/ShowBackupHistory.md)
+- [Show Restore History](/SQLServer/ShowRestoreHistory.md)
 
+### Guide
+- [Cumulative Patch](./SQLServer/CumulativePatch.md)
+- [System Databases](/SQLServer/SystemDatabases.md)
 
-### Oracle
-
+## Oracle
+### Query
+- [Show All Users](/Oracle/ShowAllUsers.md)
 
 ---
 
-## Operating System Guides
+# Operating System Guides
 
-### Linux
+## Linux
 
+### Command
+- [Crontab](/LinuxSystemAdministration/Crontab.md)
+- [Netwrok Related Commands](/LinuxSystemAdministration/NetworkRelatedCommands.md)
 
-### Windows
+### Guide
+- [System Directories](/LinuxSystemAdministration/SystemDirectories.md)
+
+## Windows
 
 ---
 
-## 📜 Essential Cheat Sheets
+# Essential Cheat Sheets
 
 - [Git](./GIT.md)
 - [SQL Cheat Sheet](./SQLCheatSheet.md)
