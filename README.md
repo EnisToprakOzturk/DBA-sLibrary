@@ -37,9 +37,9 @@ A comprehensive repository of my personal notes, cheat sheets, and best practice
 
 ## SQL Server
 ### Query
-- [Backingup the Database](./SQLServer/BackingupDatabase.md)
+- [Backing up the Database](./SQLServer/BackingupDatabase.md)
 - [Helpful System Queries](/SQLServer/HelpfulSystemQueries.md)
-- [Privilige Quaries](/SQLServer/PrivilegeQueries.md)
+- [Privilege Queries](/SQLServer/PrivilegeQueries.md)
 - [Recovery Models](/SQLServer/RecoveryModels.md)
 - [Show Backup History](/SQLServer/ShowBackupHistory.md)
 - [Show Restore History](/SQLServer/ShowRestoreHistory.md)
@@ -60,7 +60,7 @@ A comprehensive repository of my personal notes, cheat sheets, and best practice
 
 ### Command
 - [Crontab](/LinuxSystemAdministration/Crontab.md)
-- [Netwrok Related Commands](/LinuxSystemAdministration/NetworkRelatedCommands.md)
+- [Network Related Commands](/LinuxSystemAdministration/NetworkRelatedCommands.md)
 
 ### Guide
 - [System Directories](/LinuxSystemAdministration/SystemDirectories.md)

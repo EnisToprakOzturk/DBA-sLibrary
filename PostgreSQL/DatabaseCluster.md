@@ -9,7 +9,7 @@
 # Initdb Syntax
 
 - We have to be logged in as PostgreSQL user to execute the below commands.
-- There are two way to initialize database.
+- There are two ways to initialize database.
 
 ```bash
 initdb -D /usr/local/psql/data
@@ -20,7 +20,7 @@ pg_ctl -D /usr/psqş/data initdb
 
 -W = we can use this option to force the super user to provide password before initialize db
 
-# Start\Stop Cluster
+# Start/Stop Cluster
 
 ### Start Cluster Syntax:
 

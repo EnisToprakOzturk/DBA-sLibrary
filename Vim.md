@@ -2,7 +2,7 @@
 
 ~~~
 :q -> exit
-:q! -> exit, dischard changes
+:q! -> exit, discard changes
 :w -> save
 :wq -> save and exit
 ~~~
@@ -29,7 +29,7 @@ ctrl r &rarr; redo
 
 p &rarr; paste
 
-shift i &rarr; insert mod begining
+shift i &rarr; insert mode beginning
 
 i &rarr; insert left
 
@@ -47,7 +47,7 @@ G &rarr; go to end of the page
 
 { &rarr; jump to previous paragraph
 
-A &rarr; instert end of the line
+A &rarr; insert end of the line
 
 20j &rarr; go 20 rows down
 
@@ -55,9 +55,9 @@ A &rarr; instert end of the line
 
 d &rarr; to delete
 
-o &rarr; add line below and change mod to insert
+o &rarr; add line below and change mode to insert
 
-O &rarr; add line above and cahnge mod to insert
+O &rarr; add line above and change mode to insert
 
 w &rarr; next word
 
@@ -65,7 +65,7 @@ b &rarr; previous word
 
 $ &rarr; go to end of line 
 
-0 &rarr; beggining of the line
+0 &rarr; beginning of the line
 
 % &rarr; to go to specific block parenthesis
 

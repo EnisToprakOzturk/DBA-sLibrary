@@ -2,7 +2,7 @@ The **cron** service allows us to schedule commands to run at regular intervals 
 * Every 30 minutes
 * Every day at midnight
 * Every 1st of the month
-* Every March 31th
+* Every March 31st
 
 ### Editing the crontab
 

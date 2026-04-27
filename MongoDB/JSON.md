@@ -17,7 +17,7 @@
 ```json
 {
 "name": "MongoDB",
-"type": "Document-based NoSQL Databaase"
+"type": "Document-based NoSQL Database"
 }
 ```
 ---

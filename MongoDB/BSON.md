@@ -1,6 +1,6 @@
 - “Binary JSON”
 - Encodes type and length information
-- BSON has more datatypes compare to JSON
+- BSON has more datatypes compared to JSON
 - Allows comparisons and calculations to happen directly on data
 - MongoDB stores data in BSON format internally and over the network
 - Anything in JSON can be stored in MongoDB and retrieved

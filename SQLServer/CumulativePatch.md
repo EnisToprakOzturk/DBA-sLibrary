@@ -1,4 +1,4 @@
-1. Dowload the patch to be applied.
+1. Download the patch to be applied.
 2. Open SQL Server Configuration Manager. SQL Server, Integration Services, and Analysis Services should be in the same state, either all running or all stopped.
 **Note:** If SQL Server is running but Analysis Services is stopped, errors may occur during the patch process.
 **Note:** Although not always necessary, a Windows restart may be required before the installation.

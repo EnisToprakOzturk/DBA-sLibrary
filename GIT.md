@@ -25,7 +25,7 @@ git push -u origin master
 
 ## GIT Workflow
 
-![Git workflow chart](/Images/Git%20Workflow.png "Git Workdlow")
+![Git workflow chart](/Images/Git%20Workflow.png "Git Workflow")
 
 ## Useful GIT Commands
 
