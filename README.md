@@ -13,6 +13,7 @@ A comprehensive repository of my personal notes, cheat sheets, and best practice
 * [OS Guides](#operating-system-guides)
   * [Linux](#linux)
   * [Windows](#windows)
+* [Concepts](#concepts)
 * [Essential Cheat Sheets](#-essential-cheat-sheets)
 
 ---
@@ -34,6 +35,9 @@ A comprehensive repository of my personal notes, cheat sheets, and best practice
 ## MongoDB
 ### Query
 - [Create User](./MongoDB/CreateUser.md)
+
+### Guide
+- [MongoDB Shell](./MongoDB/MongoDBShell.md)
 
 ## SQL Server
 ### Query
@@ -66,6 +70,12 @@ A comprehensive repository of my personal notes, cheat sheets, and best practice
 - [System Directories](/LinuxSystemAdministration/SystemDirectories.md)
 
 ## Windows
+
+---
+
+# Concepts
+
+- [NoSQL](./Concepts/NoSQL.md)
 
 ---
 
