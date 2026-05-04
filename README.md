@@ -37,6 +37,11 @@ A comprehensive repository of my personal notes, cheat sheets, and best practice
 - [Create User](./MongoDB/CreateUser.md)
 
 ### Guide
+- [BSON](./MongoDB/BSON.md)
+- [CAP Theorem](./MongoDB/CAPTheorem.md)
+- [Data Modeling](./MongoDB/DataModeling.md)
+- [Document](./MongoDB/Document.md)
+- [JSON](./MongoDB/JSON.md)
 - [MongoDB Shell](./MongoDB/MongoDBShell.md)
 - [Transactions](./MongoDB/Transactions.md)
 - [What is MongoDB](./MongoDB/WhatIsMongoDB.md)
