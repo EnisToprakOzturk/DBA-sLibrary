@@ -38,6 +38,8 @@ A comprehensive repository of my personal notes, cheat sheets, and best practice
 
 ### Guide
 - [MongoDB Shell](./MongoDB/MongoDBShell.md)
+- [Transactions](./MongoDB/Transactions.md)
+- [What is MongoDB](./MongoDB/WhatIsMongoDB.md)
 
 ## SQL Server
 ### Query
