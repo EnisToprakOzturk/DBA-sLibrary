@@ -52,7 +52,9 @@ A comprehensive repository of my personal notes, cheat sheets, and best practice
 - [Helpful System Queries](/SQLServer/HelpfulSystemQueries.md)
 - [Privilege Queries](/SQLServer/PrivilegeQueries.md)
 - [Recovery Models](/SQLServer/RecoveryModels.md)
+- [Restoring Database](./SQLServer/RestoringDatabase.md)
 - [Show Backup History](/SQLServer/ShowBackupHistory.md)
+- [Show DB Files](./SQLServer/ShowDBFiles.md)
 - [Show Restore History](/SQLServer/ShowRestoreHistory.md)
 
 ### Guide
