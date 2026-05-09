@@ -1,3 +1,4 @@
+# BSON
 - “Binary JSON”
 - Encodes type and length information
 - BSON has more datatypes compared to JSON

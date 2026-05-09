@@ -1,3 +1,4 @@
+# Documents
 - Data records as BSON documents
 - Composed of field-value pairs
 - Field can be any of the BSON data types

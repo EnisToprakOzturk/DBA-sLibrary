@@ -39,8 +39,9 @@ A comprehensive repository of my personal notes, cheat sheets, and best practice
 ### Guide
 - [BSON](./MongoDB/BSON.md)
 - [CAP Theorem](./MongoDB/CAPTheorem.md)
+- [Create(Insert)Operation](./MongoDB/Create(Insert)Operation.md)
 - [Data Modeling](./MongoDB/DataModeling.md)
-- [Document](./MongoDB/Document.md)
+- [Documents](./MongoDB/Documents.md)
 - [JSON](./MongoDB/JSON.md)
 - [MongoDB Shell](./MongoDB/MongoDBShell.md)
 - [Transactions](./MongoDB/Transactions.md)

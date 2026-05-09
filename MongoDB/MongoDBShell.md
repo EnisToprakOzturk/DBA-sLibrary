@@ -1,3 +1,5 @@
+# MongoDB Shell
+
 - An interactive JavaScript interface to MongoDB
 - Used for:
     - add new data

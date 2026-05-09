@@ -1,3 +1,4 @@
+# Create User
 ```sql
 db.createUser( 
     { user: "superadmin", 

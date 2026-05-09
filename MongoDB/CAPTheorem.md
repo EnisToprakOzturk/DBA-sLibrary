@@ -1,3 +1,4 @@
+# CAP Theorem
 - Consistency, Availability, Partition Tolerance
 - Brewer’s Theorem after computer scientist Eric Brewer
 - A distributed system can deliver only two of three desired characteristics
